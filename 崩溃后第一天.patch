@@ -1,0 +1,2714 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1554638343000)
++++ .idea/vcs.xml	(date 1554638343000)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1554605611000)
++++ .idea/workspace.xml	(date 1554638343000)
+@@ -7,7 +7,13 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="ddd1aa20-8dfb-4377-a042-0b59f120a041" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ouyang_crud1_war_exploded2.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/artifacts/ouyang_crud1_war_exploded2/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ouyang_crud1_war_exploded2/WEB-INF/web.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/ouyang_crud1/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ouyang_crud1/WEB-INF/web.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/ouyang_crud1/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ouyang_crud1/index.jsp" afterDir="false" />
+     </list>
+     <ignored path="$PROJECT_DIR$/out/" />
+     <ignored path="$PROJECT_DIR$/target/" />
+@@ -20,51 +26,134 @@
+   <component name="FileEditorManager">
+     <leaf>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/pom.xml">
++        <entry file="file://$PROJECT_DIR$/src/main/Java/com/ouyang/crud/test/MBGTest.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="2475">
+-              <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
++            <state relative-caret-position="600">
++              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
++              <folding>
++                <element signature="imports" expanded="true" />
++                <element signature="e#448#456#0" expanded="true" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
++        <entry file="file://$PROJECT_DIR$/src/main/Java/com/ouyang/crud/test/MapperTest.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="150">
+-              <caret line="6" column="10" selection-start-line="5" selection-start-column="16" selection-end-line="6" selection-end-column="10" />
++            <state relative-caret-position="525">
++              <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
++              <folding>
++                <element signature="imports" expanded="true" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file pinned="false" current-in-tab="true">
++      <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+           <provider selected="true" editor-type-id="text-editor">
+             <state relative-caret-position="125">
+-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
++              <caret line="5" selection-start-line="5" selection-end-line="5" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="100">
++              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+             </state>
+           </provider>
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/main/Java/com/ouyang/crud/bean/tste.java">
++        <entry file="file://$PROJECT_DIR$/pom.xml">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="175">
+-              <caret line="7" selection-start-line="7" selection-end-line="7" />
++            <state relative-caret-position="553">
++              <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="275">
++              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+               <folding>
+-                <element signature="e#94#95#0" expanded="true" />
+-                <element signature="e#130#131#0" expanded="true" />
++                <element signature="e#1623#1640#0" expanded="true" />
++                <element signature="e#1696#1717#0" expanded="true" />
++                <element signature="e#1766#1780#0" expanded="true" />
++                <element signature="e#1835#1853#0" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/main/resources/dbconfig.properties">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="25">
++              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="49" />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="-662">
++              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
++              <folding>
++                <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
++                <element signature="n#sql#0;n#mapper#0;n#!!top" />
++                <element signature="n#sql#1;n#mapper#0;n#!!top" />
++                <element signature="n#sql#2;n#mapper#0;n#!!top" />
++                <element signature="n#sql#3;n#mapper#0;n#!!top" />
++                <element signature="n#select#0;n#mapper#0;n#!!top" />
++                <element signature="n#select#1;n#mapper#0;n#!!top" />
++                <element signature="e#5#79#1" />
++                <element signature="n#delete#0;n#mapper#0;n#!!top" />
++                <element signature="n#delete#1;n#mapper#0;n#!!top" />
++                <element signature="n#insert#0;n#mapper#0;n#!!top" />
++                <element signature="n#insert#1;n#mapper#0;n#!!top" />
++                <element signature="n#update#0;n#mapper#0;n#!!top" />
+               </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/main/Java/com/ouyang/crud/bean/Employee.java">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="-410">
++              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
++              <folding>
++                <element signature="e#215#216#0" expanded="true" />
++                <element signature="e#238#239#0" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DepartmentMapper.xml">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="150">
++              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
++            </state>
++          </provider>
++        </entry>
++      </file>
+     </leaf>
+   </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="Class" />
++        <option value="Jsp File" />
+       </list>
+     </option>
+   </component>
+@@ -78,6 +167,18 @@
+         <option value="$PROJECT_DIR$/src/main/Java/com/ouyang/crud/bean/tste.java" />
+         <option value="$PROJECT_DIR$/pom.xml" />
+         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
++        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
++        <option value="$PROJECT_DIR$/src/main/resources/dbconfig.properties" />
++        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" />
++        <option value="$PROJECT_DIR$/src/main/Java/com/ouyang/crud/test/MBGTest.java" />
++        <option value="$PROJECT_DIR$/mbg.xml" />
++        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
++        <option value="$PROJECT_DIR$/src/main/Java/com/ouyang/crud/bean/Department.java" />
++        <option value="$PROJECT_DIR$/src/main/Java/com/ouyang/crud/bean/Employee.java" />
++        <option value="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" />
++        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
++        <option value="$PROJECT_DIR$/src/main/Java/com/ouyang/crud/test/MapperTest.java" />
++        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+       </list>
+     </option>
+   </component>
+@@ -89,9 +190,9 @@
+     <option name="CUSTOM_FILTER" />
+   </component>
+   <component name="ProjectFrameBounds" extendedState="6">
+-    <option name="x" value="-7" />
+-    <option name="width" value="812" />
+-    <option name="height" value="735" />
++    <option name="x" value="3" />
++    <option name="width" value="1038" />
++    <option name="height" value="788" />
+   </component>
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectView">
+@@ -139,7 +240,45 @@
+               <item name="ouyang_crud1" type="462c0819:PsiDirectoryNode" />
+               <item name="src" type="462c0819:PsiDirectoryNode" />
+               <item name="main" type="462c0819:PsiDirectoryNode" />
++              <item name="Java" type="462c0819:PsiDirectoryNode" />
++              <item name="crud" type="462c0819:PsiDirectoryNode" />
++              <item name="bean" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="ouyang_crud1" type="b2602c69:ProjectViewProjectNode" />
++              <item name="ouyang_crud1" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="main" type="462c0819:PsiDirectoryNode" />
++              <item name="Java" type="462c0819:PsiDirectoryNode" />
++              <item name="crud" type="462c0819:PsiDirectoryNode" />
++              <item name="test" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="ouyang_crud1" type="b2602c69:ProjectViewProjectNode" />
++              <item name="ouyang_crud1" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="main" type="462c0819:PsiDirectoryNode" />
++              <item name="resources" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="ouyang_crud1" type="b2602c69:ProjectViewProjectNode" />
++              <item name="ouyang_crud1" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="main" type="462c0819:PsiDirectoryNode" />
++              <item name="resources" type="462c0819:PsiDirectoryNode" />
++              <item name="mapper" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="ouyang_crud1" type="b2602c69:ProjectViewProjectNode" />
++              <item name="ouyang_crud1" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="main" type="462c0819:PsiDirectoryNode" />
+               <item name="webapp" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="ouyang_crud1" type="b2602c69:ProjectViewProjectNode" />
++              <item name="ouyang_crud1" type="462c0819:PsiDirectoryNode" />
++              <item name="target" type="462c0819:PsiDirectoryNode" />
+             </path>
+           </expand>
+           <select />
+@@ -154,8 +293,8 @@
+     <property name="Repository.Attach.Sources" value="false" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="aspect.path.notification.shown" value="true" />
+-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554605593844" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554638242739" />
++    <property name="last_opened_file_path" value="D:/Idea/codeprograms/ssm-crud" />
+     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+     <property name="project.structure.last.edited" value="Artifacts" />
+@@ -176,6 +315,32 @@
+     </option>
+   </component>
+   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.14">
++    <configuration name="MBGTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.ouyang.crud.test.MBGTest" />
++      <module name="ouyang_crud1" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.ouyang.crud.test.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="MBGTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="crud.test.MBGTest" />
++      <module name="ouyang_crud1" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="crud.test.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="tste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="com.ouyang.crud.bean.tste" />
+       <module name="ouyang_crud1" />
+@@ -185,6 +350,22 @@
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="MapperTest.testCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="ouyang_crud1" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.ouyang.crud.test.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="com.ouyang.crud.test" />
++      <option name="MAIN_CLASS_NAME" value="com.ouyang.crud.test.MapperTest" />
++      <option name="METHOD_NAME" value="testCRUD" />
++      <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -265,10 +446,16 @@
+     </configuration>
+     <list>
+       <item itemvalue="Application.tste" />
++      <item itemvalue="Application.MBGTest" />
++      <item itemvalue="Application.MBGTest (1)" />
+       <item itemvalue="Tomcat Server.Tomcat 9.0.14" />
++      <item itemvalue="JUnit.MapperTest.testCRUD" />
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="JUnit.MapperTest.testCRUD" />
++        <item itemvalue="Application.MBGTest (1)" />
++        <item itemvalue="Application.MBGTest" />
+         <item itemvalue="Application.tste" />
+       </list>
+     </recent_temporary>
+@@ -283,7 +470,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1554529920384</updated>
+-      <workItem from="1554529924684" duration="8681000" />
++      <workItem from="1554529924684" duration="20363000" />
+     </task>
+     <task id="LOCAL-00001" summary="崩溃后第一天">
+       <created>1554605294382</created>
+@@ -299,11 +486,50 @@
+       <option name="project" value="LOCAL" />
+       <updated>1554605333354</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="崩溃后第一天">
++      <created>1554605611592</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1554605611592</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
++  <component name="TestHistory">
++    <history-entry file="MapperTest_testCRUD - 2019.04.07 at 16h 07m 23s.xml">
++      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
++    </history-entry>
++    <history-entry file="MapperTest_testCRUD - 2019.04.07 at 16h 26m 46s.xml">
++      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
++    </history-entry>
++    <history-entry file="MapperTest_testCRUD - 2019.04.07 at 16h 54m 16s.xml">
++      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
++    </history-entry>
++    <history-entry file="MapperTest_testCRUD - 2019.04.07 at 17h 00m 16s.xml">
++      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
++    </history-entry>
++    <history-entry file="MapperTest_testCRUD - 2019.04.07 at 17h 04m 31s.xml">
++      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
++    </history-entry>
++    <history-entry file="MapperTest_testCRUD - 2019.04.07 at 17h 08m 20s.xml">
++      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
++    </history-entry>
++    <history-entry file="MapperTest_testCRUD - 2019.04.07 at 17h 08m 53s.xml">
++      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
++    </history-entry>
++    <history-entry file="MapperTest_testCRUD - 2019.04.07 at 17h 10m 27s.xml">
++      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
++    </history-entry>
++    <history-entry file="MapperTest_testCRUD - 2019.04.07 at 17h 11m 24s.xml">
++      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
++    </history-entry>
++    <history-entry file="MapperTest_testCRUD - 2019.04.07 at 19h 49m 22s.xml">
++      <configuration name="MapperTest.testCRUD" configurationId="JUnit" />
++    </history-entry>
++  </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="8681000" />
++    <option name="totallyTimeSpent" value="20363000" />
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+@@ -318,7 +544,7 @@
+       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+       <window_info anchor="bottom" id="Application Servers" weight="0.3289689" />
+       <window_info anchor="bottom" id="Spring" />
+-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3295082" />
++      <window_info anchor="bottom" id="Terminal" weight="0.3295082" />
+       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+       <window_info anchor="bottom" id="Java Enterprise" />
+@@ -327,7 +553,7 @@
+       <window_info anchor="bottom" id="Messages" weight="0.42459017" />
+       <window_info anchor="bottom" id="Message" order="0" />
+       <window_info anchor="bottom" id="Find" order="1" />
+-      <window_info anchor="bottom" id="Run" order="2" weight="0.33442622" />
++      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41967213" />
+       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+@@ -351,6 +577,16 @@
+     <option name="LAST_COMMIT_MESSAGE" value="崩溃后第一天" />
+   </component>
+   <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/src/main/Java/com/ouyang/crud/controller.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="25">
++          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
++      <provider selected="true" editor-type-id="text-editor" />
++    </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/Java/com/ouyang/crud/bean/tste.java">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="175">
+@@ -362,31 +598,160 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/ouyang/crud/controller.java">
++    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1475">
++          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="200">
++          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/io/ClassLoaderWrapper.class">
++      <provider selected="true" editor-type-id="text-editor">
++        <state>
++          <folding>
++            <element signature="e#0#3602#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/mbg.xml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="-261">
++          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="125">
++          <caret line="11" column="8" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="17" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/Java/com/ouyang/crud/bean/Department.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="243">
++          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
++          <folding>
++            <element signature="e#140#141#0" expanded="true" />
++            <element signature="e#161#162#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/Java/com/ouyang/crud/bean/DepartmentExample.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="100">
++          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DepartmentMapper.xml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="150">
++          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="-662">
++          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
++          <folding>
++            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
++            <element signature="n#sql#0;n#mapper#0;n#!!top" />
++            <element signature="n#sql#1;n#mapper#0;n#!!top" />
++            <element signature="n#sql#2;n#mapper#0;n#!!top" />
++            <element signature="n#sql#3;n#mapper#0;n#!!top" />
++            <element signature="n#select#0;n#mapper#0;n#!!top" />
++            <element signature="n#select#1;n#mapper#0;n#!!top" />
++            <element signature="e#5#79#1" />
++            <element signature="n#delete#0;n#mapper#0;n#!!top" />
++            <element signature="n#delete#1;n#mapper#0;n#!!top" />
++            <element signature="n#insert#0;n#mapper#0;n#!!top" />
++            <element signature="n#insert#1;n#mapper#0;n#!!top" />
++            <element signature="n#update#0;n#mapper#0;n#!!top" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/Java/com/ouyang/crud/test/MBGTest.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="600">
++          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
++          <folding>
++            <element signature="imports" expanded="true" />
++            <element signature="e#448#456#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/Java/com/ouyang/crud/bean/Employee.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="-410">
++          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
++          <folding>
++            <element signature="e#215#216#0" expanded="true" />
++            <element signature="e#238#239#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/resources/dbconfig.properties">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="25">
+-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
++          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="49" />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/pom.xml">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="2475">
++        <state relative-caret-position="553">
+           <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
++    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="275">
++          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
++          <folding>
++            <element signature="e#1623#1640#0" expanded="true" />
++            <element signature="e#1696#1717#0" expanded="true" />
++            <element signature="e#1766#1780#0" expanded="true" />
++            <element signature="e#1835#1853#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/Java/com/ouyang/crud/test/MapperTest.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="150">
+-          <caret line="6" column="10" selection-start-line="5" selection-start-column="16" selection-end-line="6" selection-end-column="10" />
++        <state relative-caret-position="525">
++          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
++          <folding>
++            <element signature="imports" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="125">
+-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
++          <caret line="5" selection-start-line="5" selection-end-line="5" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="100">
++          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+         </state>
+       </provider>
+     </entry>
+@@ -444,7 +809,7 @@
+       </state>
+       <state key="ModuleStructureConfigurable.UI">
+         <settings>
+-          <last-edited>ouyang_crud1</last-edited>
++          <last-edited>Web|ouyang_crud1</last-edited>
+           <splitter-proportions>
+             <option name="proportions">
+               <list>
+Index: mbg.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- mbg.xml	(date 1554638343000)
++++ mbg.xml	(date 1554638343000)
+@@ -0,0 +1,53 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE generatorConfiguration
++        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
++        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
++
++<generatorConfiguration>
++
++    <context id="DB2Tables" targetRuntime="MyBatis3">
++
++        <commentGenerator>
++            <property name="suppressAllComments" value="true" />
++        </commentGenerator>
++
++        <!-- 配置数据库连接 -->
++        <jdbcConnection
++                driverClass="com.mysql.jdbc.Driver"
++                connectionURL="jdbc:mysql://localhost:3306/ssm_crud"
++                userId="root"
++                password="960625">
++        </jdbcConnection>
++
++        <javaTypeResolver >
++            <property name="forceBigDecimals" value="false" />
++        </javaTypeResolver>
++
++        <!-- 指定javaBean生成的位置 -->
++        <javaModelGenerator
++                targetPackage="com.ouyang.crud.bean"
++                targetProject="./src/main/Java">
++            <property name="enableSubPackages" value="true" />
++            <property name="trimStrings" value="true" />
++        </javaModelGenerator>
++
++        <!-- 指定sql映射文件生成的位置 -->
++        <sqlMapGenerator
++                targetPackage="mapper"
++                targetProject="./src/main/resources">
++            <property name="enableSubPackages" value="true" />
++        </sqlMapGenerator>
++
++        <!-- 指定dao接口生成的位置，mapper接口 -->
++        <javaClientGenerator type="XMLMAPPER"
++                             targetPackage="com.ouyang.crud.dao"
++                             targetProject="./src/main/java">
++            <property name="enableSubPackages" value="true" />
++        </javaClientGenerator>
++
++        <!-- 指定每个表生成策略 -->
++        <table tableName="tbl_emp" domainObjectName="Employee"></table>
++        <table tableName="tbl_dept" domainObjectName="Department"></table>
++
++    </context>
++</generatorConfiguration>
+\ No newline at end of file
+Index: out/artifacts/ouyang_crud1_war_exploded2/WEB-INF/web.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- out/artifacts/ouyang_crud1_war_exploded2/WEB-INF/web.xml	(date 1554605611000)
++++ out/artifacts/ouyang_crud1_war_exploded2/WEB-INF/web.xml	(date 1554638343000)
+@@ -1,7 +1,60 @@
+-<!DOCTYPE web-app PUBLIC
+- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+- "http://java.sun.com/dtd/web-app_2_3.dtd" >
++<?xml version="1.0" encoding="UTF-8"?>
++<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xmlns="http://java.sun.com/xml/ns/javaee"
++         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
++         http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
++
++  <!--1. 启动Spring的容器-->
++  <context-param>
++    <param-name>contextConfigLocation</param-name>
++    <param-value>classpath:applicationContext.xml</param-value>
++  </context-param>
+ 
+-<web-app>
+-  <display-name>Archetype Created Web Application</display-name>
+-</web-app>
++  <listener>
++    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
++  </listener>
++
++  <!--2. springMVC的前段控制器（用来拦截所有请求）-->
++  <servlet>
++    <servlet-name>dispatcherServlet</servlet-name>
++    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
++    <load-on-startup>1</load-on-startup>
++  </servlet>
++  <servlet-mapping>
++    <servlet-name>dispatcherServlet</servlet-name>
++    <url-pattern>/</url-pattern>
++  </servlet-mapping>
++
++  <!--3. 添加字符编码过滤器（放在第一个，该过滤器一定要放在所有过滤器之前）-->
++  <filter>
++    <filter-name>characterEncodingFilter</filter-name>
++    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
++    <init-param>
++      <param-name>encoding</param-name>
++      <param-value>UTF-8</param-value>
++    </init-param>
++    <init-param>
++      <param-name>forceRequestEncoding</param-name>
++      <param-value>true</param-value>
++    </init-param>
++    <init-param>
++      <param-name>forceResponseEncoding</param-name>
++      <param-value>true</param-value>
++    </init-param>
++  </filter>
++  <filter-mapping>
++    <filter-name>characterEncodingFilter</filter-name>
++    <url-pattern>/*</url-pattern>
++  </filter-mapping>
++
++  <!--4. 使用Rest风格的URI,将页面普通的Post请求转为指定的delete或者put请求-->
++  <filter>
++    <filter-name>HiddenHttpMethodFilter</filter-name>
++    <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
++  </filter>
++  <filter-mapping>
++    <filter-name>HiddenHttpMethodFilter</filter-name>
++    <url-pattern>/*</url-pattern>
++  </filter-mapping>
++
++</web-app>
+\ No newline at end of file
+Index: src/main/Java/com/ouyang/crud/bean/Department.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/Java/com/ouyang/crud/bean/Department.java	(date 1554638343000)
++++ src/main/Java/com/ouyang/crud/bean/Department.java	(date 1554638343000)
+@@ -0,0 +1,33 @@
++package com.ouyang.crud.bean;
++
++public class Department {
++    private Integer deptId;
++
++    private String deptName;
++
++    public Department() {
++        super();
++    }
++
++    public Department(Integer deptId, String deptName) {
++        this.deptId = deptId;
++        this.deptName = deptName;
++    }
++
++    public Integer getDeptId() {
++        return deptId;
++    }
++
++    public void setDeptId(Integer deptId) {
++        this.deptId = deptId;
++    }
++
++    public String getDeptName() {
++        return deptName;
++    }
++
++    public void setDeptName(String deptName) {
++        this.deptName = deptName == null ? null : deptName.trim();
++    }
++
++}
+\ No newline at end of file
+Index: src/main/Java/com/ouyang/crud/bean/DepartmentExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/Java/com/ouyang/crud/bean/DepartmentExample.java	(date 1554638343000)
++++ src/main/Java/com/ouyang/crud/bean/DepartmentExample.java	(date 1554638343000)
+@@ -0,0 +1,330 @@
++package com.ouyang.crud.bean;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public class DepartmentExample {
++    protected String orderByClause;
++
++    protected boolean distinct;
++
++    protected List<Criteria> oredCriteria;
++
++    public DepartmentExample() {
++        oredCriteria = new ArrayList<Criteria>();
++    }
++
++    public void setOrderByClause(String orderByClause) {
++        this.orderByClause = orderByClause;
++    }
++
++    public String getOrderByClause() {
++        return orderByClause;
++    }
++
++    public void setDistinct(boolean distinct) {
++        this.distinct = distinct;
++    }
++
++    public boolean isDistinct() {
++        return distinct;
++    }
++
++    public List<Criteria> getOredCriteria() {
++        return oredCriteria;
++    }
++
++    public void or(Criteria criteria) {
++        oredCriteria.add(criteria);
++    }
++
++    public Criteria or() {
++        Criteria criteria = createCriteriaInternal();
++        oredCriteria.add(criteria);
++        return criteria;
++    }
++
++    public Criteria createCriteria() {
++        Criteria criteria = createCriteriaInternal();
++        if (oredCriteria.size() == 0) {
++            oredCriteria.add(criteria);
++        }
++        return criteria;
++    }
++
++    protected Criteria createCriteriaInternal() {
++        Criteria criteria = new Criteria();
++        return criteria;
++    }
++
++    public void clear() {
++        oredCriteria.clear();
++        orderByClause = null;
++        distinct = false;
++    }
++
++    protected abstract static class GeneratedCriteria {
++        protected List<Criterion> criteria;
++
++        protected GeneratedCriteria() {
++            super();
++            criteria = new ArrayList<Criterion>();
++        }
++
++        public boolean isValid() {
++            return criteria.size() > 0;
++        }
++
++        public List<Criterion> getAllCriteria() {
++            return criteria;
++        }
++
++        public List<Criterion> getCriteria() {
++            return criteria;
++        }
++
++        protected void addCriterion(String condition) {
++            if (condition == null) {
++                throw new RuntimeException("Value for condition cannot be null");
++            }
++            criteria.add(new Criterion(condition));
++        }
++
++        protected void addCriterion(String condition, Object value, String property) {
++            if (value == null) {
++                throw new RuntimeException("Value for " + property + " cannot be null");
++            }
++            criteria.add(new Criterion(condition, value));
++        }
++
++        protected void addCriterion(String condition, Object value1, Object value2, String property) {
++            if (value1 == null || value2 == null) {
++                throw new RuntimeException("Between values for " + property + " cannot be null");
++            }
++            criteria.add(new Criterion(condition, value1, value2));
++        }
++
++        public Criteria andDeptIdIsNull() {
++            addCriterion("dept_id is null");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptIdIsNotNull() {
++            addCriterion("dept_id is not null");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptIdEqualTo(Integer value) {
++            addCriterion("dept_id =", value, "deptId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptIdNotEqualTo(Integer value) {
++            addCriterion("dept_id <>", value, "deptId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptIdGreaterThan(Integer value) {
++            addCriterion("dept_id >", value, "deptId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptIdGreaterThanOrEqualTo(Integer value) {
++            addCriterion("dept_id >=", value, "deptId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptIdLessThan(Integer value) {
++            addCriterion("dept_id <", value, "deptId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptIdLessThanOrEqualTo(Integer value) {
++            addCriterion("dept_id <=", value, "deptId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptIdIn(List<Integer> values) {
++            addCriterion("dept_id in", values, "deptId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptIdNotIn(List<Integer> values) {
++            addCriterion("dept_id not in", values, "deptId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptIdBetween(Integer value1, Integer value2) {
++            addCriterion("dept_id between", value1, value2, "deptId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptIdNotBetween(Integer value1, Integer value2) {
++            addCriterion("dept_id not between", value1, value2, "deptId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameIsNull() {
++            addCriterion("dept_name is null");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameIsNotNull() {
++            addCriterion("dept_name is not null");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameEqualTo(String value) {
++            addCriterion("dept_name =", value, "deptName");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameNotEqualTo(String value) {
++            addCriterion("dept_name <>", value, "deptName");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameGreaterThan(String value) {
++            addCriterion("dept_name >", value, "deptName");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameGreaterThanOrEqualTo(String value) {
++            addCriterion("dept_name >=", value, "deptName");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameLessThan(String value) {
++            addCriterion("dept_name <", value, "deptName");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameLessThanOrEqualTo(String value) {
++            addCriterion("dept_name <=", value, "deptName");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameLike(String value) {
++            addCriterion("dept_name like", value, "deptName");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameNotLike(String value) {
++            addCriterion("dept_name not like", value, "deptName");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameIn(List<String> values) {
++            addCriterion("dept_name in", values, "deptName");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameNotIn(List<String> values) {
++            addCriterion("dept_name not in", values, "deptName");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameBetween(String value1, String value2) {
++            addCriterion("dept_name between", value1, value2, "deptName");
++            return (Criteria) this;
++        }
++
++        public Criteria andDeptNameNotBetween(String value1, String value2) {
++            addCriterion("dept_name not between", value1, value2, "deptName");
++            return (Criteria) this;
++        }
++    }
++
++    public static class Criteria extends GeneratedCriteria {
++
++        protected Criteria() {
++            super();
++        }
++    }
++
++    public static class Criterion {
++        private String condition;
++
++        private Object value;
++
++        private Object secondValue;
++
++        private boolean noValue;
++
++        private boolean singleValue;
++
++        private boolean betweenValue;
++
++        private boolean listValue;
++
++        private String typeHandler;
++
++        public String getCondition() {
++            return condition;
++        }
++
++        public Object getValue() {
++            return value;
++        }
++
++        public Object getSecondValue() {
++            return secondValue;
++        }
++
++        public boolean isNoValue() {
++            return noValue;
++        }
++
++        public boolean isSingleValue() {
++            return singleValue;
++        }
++
++        public boolean isBetweenValue() {
++            return betweenValue;
++        }
++
++        public boolean isListValue() {
++            return listValue;
++        }
++
++        public String getTypeHandler() {
++            return typeHandler;
++        }
++
++        protected Criterion(String condition) {
++            super();
++            this.condition = condition;
++            this.typeHandler = null;
++            this.noValue = true;
++        }
++
++        protected Criterion(String condition, Object value, String typeHandler) {
++            super();
++            this.condition = condition;
++            this.value = value;
++            this.typeHandler = typeHandler;
++            if (value instanceof List<?>) {
++                this.listValue = true;
++            } else {
++                this.singleValue = true;
++            }
++        }
++
++        protected Criterion(String condition, Object value) {
++            this(condition, value, null);
++        }
++
++        protected Criterion(String condition, Object value, Object secondValue, String typeHandler) {
++            super();
++            this.condition = condition;
++            this.value = value;
++            this.secondValue = secondValue;
++            this.typeHandler = typeHandler;
++            this.betweenValue = true;
++        }
++
++        protected Criterion(String condition, Object value, Object secondValue) {
++            this(condition, value, secondValue, null);
++        }
++    }
++}
+\ No newline at end of file
+Index: src/main/Java/com/ouyang/crud/bean/Employee.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/Java/com/ouyang/crud/bean/Employee.java	(date 1554638343000)
++++ src/main/Java/com/ouyang/crud/bean/Employee.java	(date 1554638343000)
+@@ -0,0 +1,67 @@
++package com.ouyang.crud.bean;
++
++public class Employee {
++    private Integer empId;
++
++    private String empName;
++
++    private String gender;
++
++    private String email;
++
++    private Integer dId;
++    //希望查询员工的同时部门信息也是查询好的
++    private Department department;
++
++    public Employee() {
++        super();
++    }
++
++    public Employee(Integer empId, String empName, String gender, String email, Integer dId) {
++        this.empId = empId;
++        this.empName = empName;
++        this.gender = gender;
++        this.email = email;
++        this.dId = dId;
++    }
++
++    public Integer getEmpId() {
++        return empId;
++    }
++
++    public void setEmpId(Integer empId) {
++        this.empId = empId;
++    }
++
++    public String getEmpName() {
++        return empName;
++    }
++
++    public void setEmpName(String empName) {
++        this.empName = empName == null ? null : empName.trim();
++    }
++
++    public String getGender() {
++        return gender;
++    }
++
++    public void setGender(String gender) {
++        this.gender = gender == null ? null : gender.trim();
++    }
++
++    public String getEmail() {
++        return email;
++    }
++
++    public void setEmail(String email) {
++        this.email = email == null ? null : email.trim();
++    }
++
++    public Integer getdId() {
++        return dId;
++    }
++
++    public void setdId(Integer dId) {
++        this.dId = dId;
++    }
++}
+\ No newline at end of file
+Index: src/main/Java/com/ouyang/crud/bean/EmployeeExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/Java/com/ouyang/crud/bean/EmployeeExample.java	(date 1554638343000)
++++ src/main/Java/com/ouyang/crud/bean/EmployeeExample.java	(date 1554638343000)
+@@ -0,0 +1,530 @@
++package com.ouyang.crud.bean;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public class EmployeeExample {
++    protected String orderByClause;
++
++    protected boolean distinct;
++
++    protected List<Criteria> oredCriteria;
++
++    public EmployeeExample() {
++        oredCriteria = new ArrayList<Criteria>();
++    }
++
++    public void setOrderByClause(String orderByClause) {
++        this.orderByClause = orderByClause;
++    }
++
++    public String getOrderByClause() {
++        return orderByClause;
++    }
++
++    public void setDistinct(boolean distinct) {
++        this.distinct = distinct;
++    }
++
++    public boolean isDistinct() {
++        return distinct;
++    }
++
++    public List<Criteria> getOredCriteria() {
++        return oredCriteria;
++    }
++
++    public void or(Criteria criteria) {
++        oredCriteria.add(criteria);
++    }
++
++    public Criteria or() {
++        Criteria criteria = createCriteriaInternal();
++        oredCriteria.add(criteria);
++        return criteria;
++    }
++
++    public Criteria createCriteria() {
++        Criteria criteria = createCriteriaInternal();
++        if (oredCriteria.size() == 0) {
++            oredCriteria.add(criteria);
++        }
++        return criteria;
++    }
++
++    protected Criteria createCriteriaInternal() {
++        Criteria criteria = new Criteria();
++        return criteria;
++    }
++
++    public void clear() {
++        oredCriteria.clear();
++        orderByClause = null;
++        distinct = false;
++    }
++
++    protected abstract static class GeneratedCriteria {
++        protected List<Criterion> criteria;
++
++        protected GeneratedCriteria() {
++            super();
++            criteria = new ArrayList<Criterion>();
++        }
++
++        public boolean isValid() {
++            return criteria.size() > 0;
++        }
++
++        public List<Criterion> getAllCriteria() {
++            return criteria;
++        }
++
++        public List<Criterion> getCriteria() {
++            return criteria;
++        }
++
++        protected void addCriterion(String condition) {
++            if (condition == null) {
++                throw new RuntimeException("Value for condition cannot be null");
++            }
++            criteria.add(new Criterion(condition));
++        }
++
++        protected void addCriterion(String condition, Object value, String property) {
++            if (value == null) {
++                throw new RuntimeException("Value for " + property + " cannot be null");
++            }
++            criteria.add(new Criterion(condition, value));
++        }
++
++        protected void addCriterion(String condition, Object value1, Object value2, String property) {
++            if (value1 == null || value2 == null) {
++                throw new RuntimeException("Between values for " + property + " cannot be null");
++            }
++            criteria.add(new Criterion(condition, value1, value2));
++        }
++
++        public Criteria andEmpIdIsNull() {
++            addCriterion("emp_id is null");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpIdIsNotNull() {
++            addCriterion("emp_id is not null");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpIdEqualTo(Integer value) {
++            addCriterion("emp_id =", value, "empId");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpIdNotEqualTo(Integer value) {
++            addCriterion("emp_id <>", value, "empId");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpIdGreaterThan(Integer value) {
++            addCriterion("emp_id >", value, "empId");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpIdGreaterThanOrEqualTo(Integer value) {
++            addCriterion("emp_id >=", value, "empId");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpIdLessThan(Integer value) {
++            addCriterion("emp_id <", value, "empId");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpIdLessThanOrEqualTo(Integer value) {
++            addCriterion("emp_id <=", value, "empId");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpIdIn(List<Integer> values) {
++            addCriterion("emp_id in", values, "empId");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpIdNotIn(List<Integer> values) {
++            addCriterion("emp_id not in", values, "empId");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpIdBetween(Integer value1, Integer value2) {
++            addCriterion("emp_id between", value1, value2, "empId");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpIdNotBetween(Integer value1, Integer value2) {
++            addCriterion("emp_id not between", value1, value2, "empId");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameIsNull() {
++            addCriterion("emp_name is null");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameIsNotNull() {
++            addCriterion("emp_name is not null");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameEqualTo(String value) {
++            addCriterion("emp_name =", value, "empName");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameNotEqualTo(String value) {
++            addCriterion("emp_name <>", value, "empName");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameGreaterThan(String value) {
++            addCriterion("emp_name >", value, "empName");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameGreaterThanOrEqualTo(String value) {
++            addCriterion("emp_name >=", value, "empName");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameLessThan(String value) {
++            addCriterion("emp_name <", value, "empName");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameLessThanOrEqualTo(String value) {
++            addCriterion("emp_name <=", value, "empName");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameLike(String value) {
++            addCriterion("emp_name like", value, "empName");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameNotLike(String value) {
++            addCriterion("emp_name not like", value, "empName");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameIn(List<String> values) {
++            addCriterion("emp_name in", values, "empName");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameNotIn(List<String> values) {
++            addCriterion("emp_name not in", values, "empName");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameBetween(String value1, String value2) {
++            addCriterion("emp_name between", value1, value2, "empName");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmpNameNotBetween(String value1, String value2) {
++            addCriterion("emp_name not between", value1, value2, "empName");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderIsNull() {
++            addCriterion("gender is null");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderIsNotNull() {
++            addCriterion("gender is not null");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderEqualTo(String value) {
++            addCriterion("gender =", value, "gender");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderNotEqualTo(String value) {
++            addCriterion("gender <>", value, "gender");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderGreaterThan(String value) {
++            addCriterion("gender >", value, "gender");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderGreaterThanOrEqualTo(String value) {
++            addCriterion("gender >=", value, "gender");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderLessThan(String value) {
++            addCriterion("gender <", value, "gender");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderLessThanOrEqualTo(String value) {
++            addCriterion("gender <=", value, "gender");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderLike(String value) {
++            addCriterion("gender like", value, "gender");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderNotLike(String value) {
++            addCriterion("gender not like", value, "gender");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderIn(List<String> values) {
++            addCriterion("gender in", values, "gender");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderNotIn(List<String> values) {
++            addCriterion("gender not in", values, "gender");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderBetween(String value1, String value2) {
++            addCriterion("gender between", value1, value2, "gender");
++            return (Criteria) this;
++        }
++
++        public Criteria andGenderNotBetween(String value1, String value2) {
++            addCriterion("gender not between", value1, value2, "gender");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailIsNull() {
++            addCriterion("email is null");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailIsNotNull() {
++            addCriterion("email is not null");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailEqualTo(String value) {
++            addCriterion("email =", value, "email");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailNotEqualTo(String value) {
++            addCriterion("email <>", value, "email");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailGreaterThan(String value) {
++            addCriterion("email >", value, "email");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailGreaterThanOrEqualTo(String value) {
++            addCriterion("email >=", value, "email");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailLessThan(String value) {
++            addCriterion("email <", value, "email");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailLessThanOrEqualTo(String value) {
++            addCriterion("email <=", value, "email");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailLike(String value) {
++            addCriterion("email like", value, "email");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailNotLike(String value) {
++            addCriterion("email not like", value, "email");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailIn(List<String> values) {
++            addCriterion("email in", values, "email");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailNotIn(List<String> values) {
++            addCriterion("email not in", values, "email");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailBetween(String value1, String value2) {
++            addCriterion("email between", value1, value2, "email");
++            return (Criteria) this;
++        }
++
++        public Criteria andEmailNotBetween(String value1, String value2) {
++            addCriterion("email not between", value1, value2, "email");
++            return (Criteria) this;
++        }
++
++        public Criteria andDIdIsNull() {
++            addCriterion("d_id is null");
++            return (Criteria) this;
++        }
++
++        public Criteria andDIdIsNotNull() {
++            addCriterion("d_id is not null");
++            return (Criteria) this;
++        }
++
++        public Criteria andDIdEqualTo(Integer value) {
++            addCriterion("d_id =", value, "dId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDIdNotEqualTo(Integer value) {
++            addCriterion("d_id <>", value, "dId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDIdGreaterThan(Integer value) {
++            addCriterion("d_id >", value, "dId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDIdGreaterThanOrEqualTo(Integer value) {
++            addCriterion("d_id >=", value, "dId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDIdLessThan(Integer value) {
++            addCriterion("d_id <", value, "dId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDIdLessThanOrEqualTo(Integer value) {
++            addCriterion("d_id <=", value, "dId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDIdIn(List<Integer> values) {
++            addCriterion("d_id in", values, "dId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDIdNotIn(List<Integer> values) {
++            addCriterion("d_id not in", values, "dId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDIdBetween(Integer value1, Integer value2) {
++            addCriterion("d_id between", value1, value2, "dId");
++            return (Criteria) this;
++        }
++
++        public Criteria andDIdNotBetween(Integer value1, Integer value2) {
++            addCriterion("d_id not between", value1, value2, "dId");
++            return (Criteria) this;
++        }
++    }
++
++    public static class Criteria extends GeneratedCriteria {
++
++        protected Criteria() {
++            super();
++        }
++    }
++
++    public static class Criterion {
++        private String condition;
++
++        private Object value;
++
++        private Object secondValue;
++
++        private boolean noValue;
++
++        private boolean singleValue;
++
++        private boolean betweenValue;
++
++        private boolean listValue;
++
++        private String typeHandler;
++
++        public String getCondition() {
++            return condition;
++        }
++
++        public Object getValue() {
++            return value;
++        }
++
++        public Object getSecondValue() {
++            return secondValue;
++        }
++
++        public boolean isNoValue() {
++            return noValue;
++        }
++
++        public boolean isSingleValue() {
++            return singleValue;
++        }
++
++        public boolean isBetweenValue() {
++            return betweenValue;
++        }
++
++        public boolean isListValue() {
++            return listValue;
++        }
++
++        public String getTypeHandler() {
++            return typeHandler;
++        }
++
++        protected Criterion(String condition) {
++            super();
++            this.condition = condition;
++            this.typeHandler = null;
++            this.noValue = true;
++        }
++
++        protected Criterion(String condition, Object value, String typeHandler) {
++            super();
++            this.condition = condition;
++            this.value = value;
++            this.typeHandler = typeHandler;
++            if (value instanceof List<?>) {
++                this.listValue = true;
++            } else {
++                this.singleValue = true;
++            }
++        }
++
++        protected Criterion(String condition, Object value) {
++            this(condition, value, null);
++        }
++
++        protected Criterion(String condition, Object value, Object secondValue, String typeHandler) {
++            super();
++            this.condition = condition;
++            this.value = value;
++            this.secondValue = secondValue;
++            this.typeHandler = typeHandler;
++            this.betweenValue = true;
++        }
++
++        protected Criterion(String condition, Object value, Object secondValue) {
++            this(condition, value, secondValue, null);
++        }
++    }
++}
+\ No newline at end of file
+Index: src/main/Java/com/ouyang/crud/dao/DepartmentMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/Java/com/ouyang/crud/dao/DepartmentMapper.java	(date 1554638343000)
++++ src/main/Java/com/ouyang/crud/dao/DepartmentMapper.java	(date 1554638343000)
+@@ -0,0 +1,30 @@
++package com.ouyang.crud.dao;
++
++import com.ouyang.crud.bean.Department;
++import com.ouyang.crud.bean.DepartmentExample;
++import java.util.List;
++import org.apache.ibatis.annotations.Param;
++
++public interface DepartmentMapper {
++    long countByExample(DepartmentExample example);
++
++    int deleteByExample(DepartmentExample example);
++
++    int deleteByPrimaryKey(Integer deptId);
++
++    int insert(Department record);
++
++    int insertSelective(Department record);
++
++    List<Department> selectByExample(DepartmentExample example);
++
++    Department selectByPrimaryKey(Integer deptId);
++
++    int updateByExampleSelective(@Param("record") Department record, @Param("example") DepartmentExample example);
++
++    int updateByExample(@Param("record") Department record, @Param("example") DepartmentExample example);
++
++    int updateByPrimaryKeySelective(Department record);
++
++    int updateByPrimaryKey(Department record);
++}
+\ No newline at end of file
+Index: src/main/Java/com/ouyang/crud/dao/EmployeeMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/Java/com/ouyang/crud/dao/EmployeeMapper.java	(date 1554638343000)
++++ src/main/Java/com/ouyang/crud/dao/EmployeeMapper.java	(date 1554638343000)
+@@ -0,0 +1,30 @@
++package com.ouyang.crud.dao;
++
++import com.ouyang.crud.bean.Employee;
++import com.ouyang.crud.bean.EmployeeExample;
++import java.util.List;
++import org.apache.ibatis.annotations.Param;
++
++public interface EmployeeMapper {
++    long countByExample(EmployeeExample example);
++
++    int deleteByExample(EmployeeExample example);
++
++    int deleteByPrimaryKey(Integer empId);
++
++    int insert(Employee record);
++
++    int insertSelective(Employee record);
++
++    List<Employee> selectByExample(EmployeeExample example);
++
++    Employee selectByPrimaryKey(Integer empId);
++
++    int updateByExampleSelective(@Param("record") Employee record, @Param("example") EmployeeExample example);
++
++    int updateByExample(@Param("record") Employee record, @Param("example") EmployeeExample example);
++
++    int updateByPrimaryKeySelective(Employee record);
++
++    int updateByPrimaryKey(Employee record);
++}
+\ No newline at end of file
+Index: src/main/Java/com/ouyang/crud/test/MBGTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/Java/com/ouyang/crud/test/MBGTest.java	(date 1554638343000)
++++ src/main/Java/com/ouyang/crud/test/MBGTest.java	(date 1554638343000)
+@@ -0,0 +1,25 @@
++package com.ouyang.crud.test;
++
++import org.mybatis.generator.api.MyBatisGenerator;
++import org.mybatis.generator.config.Configuration;
++import org.mybatis.generator.config.xml.ConfigurationParser;
++import org.mybatis.generator.internal.DefaultShellCallback;
++
++import java.io.File;
++import java.util.ArrayList;
++import java.util.List;
++
++public class MBGTest {
++
++    public static void main(String[] args) throws Exception {
++        List<String> warnings = new ArrayList<String>();
++        boolean overwrite = true;
++        File configFile = new File("mbg.xml");
++        ConfigurationParser cp = new ConfigurationParser(warnings);
++        Configuration config = cp.parseConfiguration(configFile);
++        DefaultShellCallback callback = new DefaultShellCallback(overwrite);
++        MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
++        myBatisGenerator.generate(null);
++    }
++
++}
+\ No newline at end of file
+Index: src/main/Java/com/ouyang/crud/test/MapperTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/Java/com/ouyang/crud/test/MapperTest.java	(date 1554638343000)
++++ src/main/Java/com/ouyang/crud/test/MapperTest.java	(date 1554638343000)
+@@ -0,0 +1,66 @@
++package com.ouyang.crud.test;
++
++import com.ouyang.crud.bean.Department;
++import com.ouyang.crud.bean.Employee;
++import com.ouyang.crud.dao.DepartmentMapper;
++import com.ouyang.crud.dao.EmployeeMapper;
++import org.apache.ibatis.session.SqlSession;
++import org.junit.Test;
++import org.junit.runner.RunWith;
++import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.test.context.ContextConfiguration;
++import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
++
++import java.util.UUID;
++
++/**
++ * 测试dao层的工作
++ * @author  Xx、
++ * 推荐spring的项目就可以用spring的单元测试，可以自动注入我们需要的组件
++ * 1.导入SpringTest模块
++ * 2.@ContextConfiguration指定Spring配置文件的位置
++ * 3.直接autowired要使用的组件即可
++ */
++
++//使用单元测试模块时，需要删除pm依赖中对单元测试的限制<scope>
++@RunWith(SpringJUnit4ClassRunner.class)
++@ContextConfiguration(locations={"classpath:applicationContext.xml"})
++public class MapperTest {
++    @Autowired
++    DepartmentMapper departmentMapper;
++
++   @Autowired
++   EmployeeMapper employeeMapper;
++
++    @Autowired
++    SqlSession sqlSession;
++
++    /**
++     * 测试DepartmentMapper
++     */
++    @Test
++    public void testCRUD(){
++      //  1.创建SpringIOC容器
++      /*  ApplicationContext ioc= new ClassPathXmlApplicationContext("applicationContext.xml");
++        //2.从容器中获取Mapper
++        ioc.getBean(DepartmentMapper.class);*/
++        System.out.println(departmentMapper);
++        //1.插入几个部门
++       /* departmentMapper.insertSelective(new Department(null,"开发部"));
++        departmentMapper.insertSelective(new Department(null,"测试部"));*/
++
++        //2.生成员工数据，测试员工插入
++      //  employeeMapper.insertSelective(new Employee(null,"Jerry","M","Jerry@ecut.com",1));
++        //employeeMapper.insertSelective(new Employee(null,"TOM","N","TOM@ecut.com",1));
++
++        //3.批量插入多个员工；使用可执行批量操作的sqlSession
++        EmployeeMapper mapper=sqlSession.getMapper(EmployeeMapper.class);
++        for(int i=0;i<10;i++){
++            String uid=UUID.randomUUID().toString().substring(0,5)+i;
++            mapper.insertSelective(new Employee(null,uid,"M",uid+"@ecut.com",1));
++        }
++        System.out.println("批量完成！");
++
++    }
++
++}
+\ No newline at end of file
+Index: src/main/resources/applicationContext.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/applicationContext.xml	(date 1554638343000)
++++ src/main/resources/applicationContext.xml	(date 1554638343000)
+@@ -0,0 +1,73 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<beans xmlns="http://www.springframework.org/schema/beans"
++       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++       xmlns:aop="http://www.springframework.org/schema/aop"
++       xmlns:tx="http://www.springframework.org/schema/tx"
++       xmlns:context="http://www.springframework.org/schema/context"
++       xsi:schemaLocation="http://www.springframework.org/schema/beans
++        http://www.springframework.org/schema/beans/spring-beans.xsd
++        http://www.springframework.org/schema/context
++        http://www.springframework.org/schema/context/spring-context.xsd
++         http://www.springframework.org/schema/tx
++         http://www.springframework.org/schema/tx/spring-tx.xsd
++         http://www.springframework.org/schema/aop
++         http://www.springframework.org/schema/aop/spring-aop.xsd">
++
++    <!--spring的配置文件，这里主要配置和业务逻辑有关的文件-->
++    <context:component-scan base-package="com.ouyang.crud">
++
++        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"></context:exclude-filter>
++    </context:component-scan>
++    <!--配置一个可以执行批量的sqlSession-->
++    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
++        <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"></constructor-arg>
++        <constructor-arg name="executorType" value="BATCH"></constructor-arg>
++    </bean>
++
++    <context:property-placeholder location="classpath:dbconfig.properties"/>
++    <bean id="pooledDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
++        <property name="jdbcUrl" value="${jdbc.jdbcUrl}"></property>
++        <property name="driverClass" value="${jdbc.driverClass}"></property>
++        <property name="user" value="${jdbc.user}" > </property>
++        <property name="password" value="${jdbc.password}"></property>
++    </bean>
++
++
++    <!--配置和mybatis的整合-->
++    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
++        <!-- 指定mybatis全局配置文件的位置 -->
++        <property name="configLocation" value="classpath:mybatis-config.xml"></property>
++        <property name="dataSource" ref="pooledDataSource"></property>
++        <!-- 指定mybatis.mapper文件的位置 -->
++        <property name="mapperLocations" value="classpath:mapper/*.xml"></property>
++    </bean>
++    <!--配置扫描器,将mybatis的实现加入到ioc容器中-->
++    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
++        <property name="basePackage" value="com.ouyang.crud.dao"></property>
++    </bean>
++
++    <!--事物控制的配置-->
++    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
++        <!--控制住数据源-->
++        <property name="dataSource" ref="pooledDataSource"></property>
++    </bean>
++    <!--开启基于注解的事务，使用xml配置形式的事务（必须主要的都是使用配置式）-->
++    <aop:config>
++        <!-- 切入点表达式 -->
++        <aop:pointcut expression="execution(* com.ouyang.crud.service..*(..))" id="txPoint"/>
++        <!-- 配置事务增强 -->
++        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPoint"/>
++    </aop:config>
++    <!--配置事务增强，事务如何切入 -->
++
++    <tx:advice id="txAdvice" transaction-manager="transactionManager">
++        <!-- 所有方法都是事务方法 -->
++        <tx:attributes>
++            <tx:method name="*"/>
++            <!--以get开始的所有方法 -->
++            <tx:method name="get*" read-only="true"/>
++        </tx:attributes>
++    </tx:advice>
++
++    <!--spring配置文件的核心配置点：数据源，与mybatis的整合事务控制-->
++</beans>
+\ No newline at end of file
+Index: src/main/resources/dbconfig.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+--- src/main/resources/dbconfig.properties	(date 1554638343000)
++++ src/main/resources/dbconfig.properties	(date 1554638343000)
+@@ -0,0 +1,5 @@
++//解决中文乱码在数据库名字后面加上?useUnicode见下面
++jdbc.jdbcUrl=jdbc:mysql://localhost:3306/ssm_crud?useUnicode=true&characterEncoding=UTF-8
++jdbc.driverClass=com.mysql.jdbc.Driver
++jdbc.user=root
++jdbc.password=960625
+\ No newline at end of file
+Index: src/main/resources/mapper/DepartmentMapper.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/mapper/DepartmentMapper.xml	(date 1554638343000)
++++ src/main/resources/mapper/DepartmentMapper.xml	(date 1554638343000)
+@@ -0,0 +1,164 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
++<mapper namespace="com.ouyang.crud.dao.DepartmentMapper">
++  <resultMap id="BaseResultMap" type="com.ouyang.crud.bean.Department">
++    <id column="dept_id" jdbcType="INTEGER" property="deptId" />
++    <result column="dept_name" jdbcType="VARCHAR" property="deptName" />
++  </resultMap>
++  <sql id="Example_Where_Clause">
++    <where>
++      <foreach collection="oredCriteria" item="criteria" separator="or">
++        <if test="criteria.valid">
++          <trim prefix="(" prefixOverrides="and" suffix=")">
++            <foreach collection="criteria.criteria" item="criterion">
++              <choose>
++                <when test="criterion.noValue">
++                  and ${criterion.condition}
++                </when>
++                <when test="criterion.singleValue">
++                  and ${criterion.condition} #{criterion.value}
++                </when>
++                <when test="criterion.betweenValue">
++                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
++                </when>
++                <when test="criterion.listValue">
++                  and ${criterion.condition}
++                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
++                    #{listItem}
++                  </foreach>
++                </when>
++              </choose>
++            </foreach>
++          </trim>
++        </if>
++      </foreach>
++    </where>
++  </sql>
++  <sql id="Update_By_Example_Where_Clause">
++    <where>
++      <foreach collection="example.oredCriteria" item="criteria" separator="or">
++        <if test="criteria.valid">
++          <trim prefix="(" prefixOverrides="and" suffix=")">
++            <foreach collection="criteria.criteria" item="criterion">
++              <choose>
++                <when test="criterion.noValue">
++                  and ${criterion.condition}
++                </when>
++                <when test="criterion.singleValue">
++                  and ${criterion.condition} #{criterion.value}
++                </when>
++                <when test="criterion.betweenValue">
++                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
++                </when>
++                <when test="criterion.listValue">
++                  and ${criterion.condition}
++                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
++                    #{listItem}
++                  </foreach>
++                </when>
++              </choose>
++            </foreach>
++          </trim>
++        </if>
++      </foreach>
++    </where>
++  </sql>
++  <sql id="Base_Column_List">
++    dept_id, dept_name
++  </sql>
++  <select id="selectByExample" parameterType="com.ouyang.crud.bean.DepartmentExample" resultMap="BaseResultMap">
++    select
++    <if test="distinct">
++      distinct
++    </if>
++    <include refid="Base_Column_List" />
++    from tbl_dept
++    <if test="_parameter != null">
++      <include refid="Example_Where_Clause" />
++    </if>
++    <if test="orderByClause != null">
++      order by ${orderByClause}
++    </if>
++  </select>
++  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
++    select 
++    <include refid="Base_Column_List" />
++    from tbl_dept
++    where dept_id = #{deptId,jdbcType=INTEGER}
++  </select>
++  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
++    delete from tbl_dept
++    where dept_id = #{deptId,jdbcType=INTEGER}
++  </delete>
++  <delete id="deleteByExample" parameterType="com.ouyang.crud.bean.DepartmentExample">
++    delete from tbl_dept
++    <if test="_parameter != null">
++      <include refid="Example_Where_Clause" />
++    </if>
++  </delete>
++  <insert id="insert" parameterType="com.ouyang.crud.bean.Department">
++    insert into tbl_dept (dept_id, dept_name)
++    values (#{deptId,jdbcType=INTEGER}, #{deptName,jdbcType=VARCHAR})
++  </insert>
++  <insert id="insertSelective" parameterType="com.ouyang.crud.bean.Department">
++    insert into tbl_dept
++    <trim prefix="(" suffix=")" suffixOverrides=",">
++      <if test="deptId != null">
++        dept_id,
++      </if>
++      <if test="deptName != null">
++        dept_name,
++      </if>
++    </trim>
++    <trim prefix="values (" suffix=")" suffixOverrides=",">
++      <if test="deptId != null">
++        #{deptId,jdbcType=INTEGER},
++      </if>
++      <if test="deptName != null">
++        #{deptName,jdbcType=VARCHAR},
++      </if>
++    </trim>
++  </insert>
++  <select id="countByExample" parameterType="com.ouyang.crud.bean.DepartmentExample" resultType="java.lang.Long">
++    select count(*) from tbl_dept
++    <if test="_parameter != null">
++      <include refid="Example_Where_Clause" />
++    </if>
++  </select>
++  <update id="updateByExampleSelective" parameterType="map">
++    update tbl_dept
++    <set>
++      <if test="record.deptId != null">
++        dept_id = #{record.deptId,jdbcType=INTEGER},
++      </if>
++      <if test="record.deptName != null">
++        dept_name = #{record.deptName,jdbcType=VARCHAR},
++      </if>
++    </set>
++    <if test="_parameter != null">
++      <include refid="Update_By_Example_Where_Clause" />
++    </if>
++  </update>
++  <update id="updateByExample" parameterType="map">
++    update tbl_dept
++    set dept_id = #{record.deptId,jdbcType=INTEGER},
++      dept_name = #{record.deptName,jdbcType=VARCHAR}
++    <if test="_parameter != null">
++      <include refid="Update_By_Example_Where_Clause" />
++    </if>
++  </update>
++  <update id="updateByPrimaryKeySelective" parameterType="com.ouyang.crud.bean.Department">
++    update tbl_dept
++    <set>
++      <if test="deptName != null">
++        dept_name = #{deptName,jdbcType=VARCHAR},
++      </if>
++    </set>
++    where dept_id = #{deptId,jdbcType=INTEGER}
++  </update>
++  <update id="updateByPrimaryKey" parameterType="com.ouyang.crud.bean.Department">
++    update tbl_dept
++    set dept_name = #{deptName,jdbcType=VARCHAR}
++    where dept_id = #{deptId,jdbcType=INTEGER}
++  </update>
++</mapper>
+\ No newline at end of file
+Index: src/main/resources/mapper/EmployeeMapper.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/mapper/EmployeeMapper.xml	(date 1554638343000)
++++ src/main/resources/mapper/EmployeeMapper.xml	(date 1554638343000)
+@@ -0,0 +1,250 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
++<mapper namespace="com.ouyang.crud.dao.EmployeeMapper">
++  <resultMap id="BaseResultMap" type="com.ouyang.crud.bean.Employee">
++    <id column="emp_id" jdbcType="INTEGER" property="empId" />
++    <result column="emp_name" jdbcType="VARCHAR" property="empName" />
++    <result column="gender" jdbcType="CHAR" property="gender" />
++    <result column="email" jdbcType="VARCHAR" property="email" />
++    <result column="d_id" jdbcType="INTEGER" property="dId" />
++  </resultMap>
++  <resultMap id="WithDeptResultMap" type="com.ouyang.crud.bean.Employee">
++    <id column="emp_id" jdbcType="INTEGER" property="empId" />
++    <result column="emp_name" jdbcType="VARCHAR" property="empName" />
++    <result column="gender" jdbcType="CHAR" property="gender" />
++    <result column="email" jdbcType="VARCHAR" property="email" />
++    <result column="d_id" jdbcType="INTEGER" property="dId" />
++    <!--指定联合查询出的部门字段的封装-->
++    <association property="department" javaType="com.ouyang.crud.bean.Department">
++      <id column="dept_id" property="depyId"/>
++      <id column="dept_name" property="deptName"/>
++    </association>
++
++  </resultMap>
++
++  <sql id="Example_Where_Clause">
++    <where>
++      <foreach collection="oredCriteria" item="criteria" separator="or">
++        <if test="criteria.valid">
++          <trim prefix="(" prefixOverrides="and" suffix=")">
++            <foreach collection="criteria.criteria" item="criterion">
++              <choose>
++                <when test="criterion.noValue">
++                  and ${criterion.condition}
++                </when>
++                <when test="criterion.singleValue">
++                  and ${criterion.condition} #{criterion.value}
++                </when>
++                <when test="criterion.betweenValue">
++                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
++                </when>
++                <when test="criterion.listValue">
++                  and ${criterion.condition}
++                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
++                    #{listItem}
++                  </foreach>
++                </when>
++              </choose>
++            </foreach>
++          </trim>
++        </if>
++      </foreach>
++    </where>
++  </sql>
++  <sql id="Update_By_Example_Where_Clause">
++    <where>
++      <foreach collection="example.oredCriteria" item="criteria" separator="or">
++        <if test="criteria.valid">
++          <trim prefix="(" prefixOverrides="and" suffix=")">
++            <foreach collection="criteria.criteria" item="criterion">
++              <choose>
++                <when test="criterion.noValue">
++                  and ${criterion.condition}
++                </when>
++                <when test="criterion.singleValue">
++                  and ${criterion.condition} #{criterion.value}
++                </when>
++                <when test="criterion.betweenValue">
++                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
++                </when>
++                <when test="criterion.listValue">
++                  and ${criterion.condition}
++                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
++                    #{listItem}
++                  </foreach>
++                </when>
++              </choose>
++            </foreach>
++          </trim>
++        </if>
++      </foreach>
++    </where>
++  </sql>
++  <sql id="Base_Column_List">
++    emp_id, emp_name, gender, email, d_id
++  </sql>
++  <sql id="WithDept_Column_List">
++     e.emp_id, e.emp_name, e.gender, e.email, e.d_id, d.dept_id, d.dept_name
++  </sql>
++  <select id="selectByExampleWithDept" resultMap="WithDeptResultMap">
++    select
++    <if test="distinct">
++      distinct
++    </if>
++    <include refid="WithDept_Column_List"/>
++    from tbl_emp e
++    left join tbl_dept d on e.`d_id`=d.`dept_id`
++    <if test="_parameter != null">
++      <include refid="Example_Where_Clause"/>
++    </if>
++    <if test="orderByClause != null">
++      order by ${orderByClause}
++    </if>
++  </select>
++  <select id="selectByPrimaryKeyWithDept" resultMap="WithDeptResultMap">
++    select
++    <include refid="WithDept_Column_List"/>
++    from tbl_emp e
++    left join tbl_dept d on e.`d_id`=d.`dept_id`
++    where emp_id = #{empId,jdbcType=INTEGER}
++  </select>
++  <select id="selectByExample" parameterType="com.ouyang.crud.bean.EmployeeExample" resultMap="BaseResultMap">
++    select
++    <if test="distinct">
++      distinct
++    </if>
++    <include refid="Base_Column_List" />
++    from tbl_emp
++    <if test="_parameter != null">
++      <include refid="Example_Where_Clause" />
++    </if>
++    <if test="orderByClause != null">
++      order by ${orderByClause}
++    </if>
++  </select>
++  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
++    select 
++    <include refid="Base_Column_List" />
++    from tbl_emp
++    where emp_id = #{empId,jdbcType=INTEGER}
++  </select>
++  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
++    delete from tbl_emp
++    where emp_id = #{empId,jdbcType=INTEGER}
++  </delete>
++  <delete id="deleteByExample" parameterType="com.ouyang.crud.bean.EmployeeExample">
++    delete from tbl_emp
++    <if test="_parameter != null">
++      <include refid="Example_Where_Clause" />
++    </if>
++  </delete>
++  <insert id="insert" parameterType="com.ouyang.crud.bean.Employee">
++    insert into tbl_emp (emp_id, emp_name, gender, 
++      email, d_id)
++    values (#{empId,jdbcType=INTEGER}, #{empName,jdbcType=VARCHAR}, #{gender,jdbcType=CHAR}, 
++      #{email,jdbcType=VARCHAR}, #{dId,jdbcType=INTEGER})
++  </insert>
++  <insert id="insertSelective" parameterType="com.ouyang.crud.bean.Employee">
++    insert into tbl_emp
++    <trim prefix="(" suffix=")" suffixOverrides=",">
++      <if test="empId != null">
++        emp_id,
++      </if>
++      <if test="empName != null">
++        emp_name,
++      </if>
++      <if test="gender != null">
++        gender,
++      </if>
++      <if test="email != null">
++        email,
++      </if>
++      <if test="dId != null">
++        d_id,
++      </if>
++    </trim>
++    <trim prefix="values (" suffix=")" suffixOverrides=",">
++      <if test="empId != null">
++        #{empId,jdbcType=INTEGER},
++      </if>
++      <if test="empName != null">
++        #{empName,jdbcType=VARCHAR},
++      </if>
++      <if test="gender != null">
++        #{gender,jdbcType=CHAR},
++      </if>
++      <if test="email != null">
++        #{email,jdbcType=VARCHAR},
++      </if>
++      <if test="dId != null">
++        #{dId,jdbcType=INTEGER},
++      </if>
++    </trim>
++  </insert>
++  <select id="countByExample" parameterType="com.ouyang.crud.bean.EmployeeExample" resultType="java.lang.Long">
++    select count(*) from tbl_emp
++    <if test="_parameter != null">
++      <include refid="Example_Where_Clause" />
++    </if>
++  </select>
++  <update id="updateByExampleSelective" parameterType="map">
++    update tbl_emp
++    <set>
++      <if test="record.empId != null">
++        emp_id = #{record.empId,jdbcType=INTEGER},
++      </if>
++      <if test="record.empName != null">
++        emp_name = #{record.empName,jdbcType=VARCHAR},
++      </if>
++      <if test="record.gender != null">
++        gender = #{record.gender,jdbcType=CHAR},
++      </if>
++      <if test="record.email != null">
++        email = #{record.email,jdbcType=VARCHAR},
++      </if>
++      <if test="record.dId != null">
++        d_id = #{record.dId,jdbcType=INTEGER},
++      </if>
++    </set>
++    <if test="_parameter != null">
++      <include refid="Update_By_Example_Where_Clause" />
++    </if>
++  </update>
++  <update id="updateByExample" parameterType="map">
++    update tbl_emp
++    set emp_id = #{record.empId,jdbcType=INTEGER},
++      emp_name = #{record.empName,jdbcType=VARCHAR},
++      gender = #{record.gender,jdbcType=CHAR},
++      email = #{record.email,jdbcType=VARCHAR},
++      d_id = #{record.dId,jdbcType=INTEGER}
++    <if test="_parameter != null">
++      <include refid="Update_By_Example_Where_Clause" />
++    </if>
++  </update>
++  <update id="updateByPrimaryKeySelective" parameterType="com.ouyang.crud.bean.Employee">
++    update tbl_emp
++    <set>
++      <if test="empName != null">
++        emp_name = #{empName,jdbcType=VARCHAR},
++      </if>
++      <if test="gender != null">
++        gender = #{gender,jdbcType=CHAR},
++      </if>
++      <if test="email != null">
++        email = #{email,jdbcType=VARCHAR},
++      </if>
++      <if test="dId != null">
++        d_id = #{dId,jdbcType=INTEGER},
++      </if>
++    </set>
++    where emp_id = #{empId,jdbcType=INTEGER}
++  </update>
++  <update id="updateByPrimaryKey" parameterType="com.ouyang.crud.bean.Employee">
++    update tbl_emp
++    set emp_name = #{empName,jdbcType=VARCHAR},
++      gender = #{gender,jdbcType=CHAR},
++      email = #{email,jdbcType=VARCHAR},
++      d_id = #{dId,jdbcType=INTEGER}
++    where emp_id = #{empId,jdbcType=INTEGER}
++  </update>
++</mapper>
+\ No newline at end of file
+Index: src/main/resources/mybatis-config.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/mybatis-config.xml	(date 1554638343000)
++++ src/main/resources/mybatis-config.xml	(date 1554638343000)
+@@ -0,0 +1,18 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE configuration
++        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
++        "http://mybatis.org/dtd/mybatis-3-config.dtd">
++<configuration>
++    <settings>
++        <setting name="mapUnderscoreToCamelCase" value="true"/>
++    </settings>
++    <typeAliases>
++        <package name="com.ouyang.crud.bean"/>
++    </typeAliases>
++    <!--<plugins>
++        <plugin interceptor="com.github.pagehelper.PageInterceptor">
++            &lt;!&ndash;pageInfo合理化分页参数&ndash;&gt;
++            <property name="reasonable" value="true"/>
++        </plugin>
++    </plugins>-->
++</configuration>
+\ No newline at end of file
+Index: src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml	(date 1554638343000)
++++ src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml	(date 1554638343000)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<beans xmlns="http://www.springframework.org/schema/beans"
++       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++       xmlns:context="http://www.springframework.org/schema/context"
++       xmlns:mvc="http://www.springframework.org/schema/mvc"
++       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
++    <!--SpringMVC的配置文件，包含网站跳转的逻辑控制，配置-->
++    <context:component-scan base-package="com.ouyang.crud" use-default-filters="false">
++        <!--只扫描控制器-->
++        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"></context:include-filter>
++    </context:component-scan>
++    <!--配置视图解析器，方便页面返回-->
++    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
++        <property name="prefix" value="/WEB-INF/views"></property>
++        <property name="suffix" value=".jsp"></property>
++    </bean>
++    <!--两个标准配置-->
++    <!--将springMVC不能处理的请求交给tomat-->
++    <mvc:default-servlet-handler/>
++    <!--能支持springmvc更高级的一些功能，jsr303校验，快捷的 ajax-->
++    <mvc:annotation-driven/>
++</beans>
+\ No newline at end of file
+Index: src/main/webapp/WEB-INF/web.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/webapp/WEB-INF/web.xml	(date 1554605611000)
++++ src/main/webapp/WEB-INF/web.xml	(date 1554638343000)
+@@ -1,7 +1,60 @@
+-<!DOCTYPE web-app PUBLIC
+- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+- "http://java.sun.com/dtd/web-app_2_3.dtd" >
++<?xml version="1.0" encoding="UTF-8"?>
++<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xmlns="http://java.sun.com/xml/ns/javaee"
++         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
++         http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
++
++  <!--1. 启动Spring的容器-->
++  <context-param>
++    <param-name>contextConfigLocation</param-name>
++    <param-value>classpath:applicationContext.xml</param-value>
++  </context-param>
+ 
+-<web-app>
+-  <display-name>Archetype Created Web Application</display-name>
+-</web-app>
++  <listener>
++    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
++  </listener>
++
++  <!--2. springMVC的前段控制器（用来拦截所有请求）-->
++  <servlet>
++    <servlet-name>dispatcherServlet</servlet-name>
++    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
++    <load-on-startup>1</load-on-startup>
++  </servlet>
++  <servlet-mapping>
++    <servlet-name>dispatcherServlet</servlet-name>
++    <url-pattern>/</url-pattern>
++  </servlet-mapping>
++
++  <!--3. 添加字符编码过滤器（放在第一个，该过滤器一定要放在所有过滤器之前）-->
++  <filter>
++    <filter-name>characterEncodingFilter</filter-name>
++    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
++    <init-param>
++      <param-name>encoding</param-name>
++      <param-value>UTF-8</param-value>
++    </init-param>
++    <init-param>
++      <param-name>forceRequestEncoding</param-name>
++      <param-value>true</param-value>
++    </init-param>
++    <init-param>
++      <param-name>forceResponseEncoding</param-name>
++      <param-value>true</param-value>
++    </init-param>
++  </filter>
++  <filter-mapping>
++    <filter-name>characterEncodingFilter</filter-name>
++    <url-pattern>/*</url-pattern>
++  </filter-mapping>
++
++  <!--4. 使用Rest风格的URI,将页面普通的Post请求转为指定的delete或者put请求-->
++  <filter>
++    <filter-name>HiddenHttpMethodFilter</filter-name>
++    <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
++  </filter>
++  <filter-mapping>
++    <filter-name>HiddenHttpMethodFilter</filter-name>
++    <url-pattern>/*</url-pattern>
++  </filter-mapping>
++
++</web-app>
+\ No newline at end of file
+Index: src/main/webapp/login.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/webapp/login.jsp	(date 1554638343000)
++++ src/main/webapp/login.jsp	(date 1554638343000)
+@@ -0,0 +1,16 @@
++<%--
++  Created by IntelliJ IDEA.
++  User: 欧阳mei6
++  Date: 2019/4/7
++  Time: 19:50
++  To change this template use File | Settings | File Templates.
++--%>
++<%@ page contentType="text/html;charset=UTF-8" language="java" %>
++<html>
++<head>
++    <title>Title</title>
++</head>
++<body>
++55555555
++</body>
++</html>
+Index: target/ouyang_crud1/WEB-INF/web.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/ouyang_crud1/WEB-INF/web.xml	(date 1554605611000)
++++ target/ouyang_crud1/WEB-INF/web.xml	(date 1554638343000)
+@@ -1,7 +1,60 @@
+-<!DOCTYPE web-app PUBLIC
+- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+- "http://java.sun.com/dtd/web-app_2_3.dtd" >
++<?xml version="1.0" encoding="UTF-8"?>
++<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xmlns="http://java.sun.com/xml/ns/javaee"
++         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
++         http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
++
++  <!--1. 启动Spring的容器-->
++  <context-param>
++    <param-name>contextConfigLocation</param-name>
++    <param-value>classpath:applicationContext.xml</param-value>
++  </context-param>
+ 
+-<web-app>
+-  <display-name>Archetype Created Web Application</display-name>
+-</web-app>
++  <listener>
++    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
++  </listener>
++
++  <!--2. springMVC的前段控制器（用来拦截所有请求）-->
++  <servlet>
++    <servlet-name>dispatcherServlet</servlet-name>
++    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
++    <load-on-startup>1</load-on-startup>
++  </servlet>
++  <servlet-mapping>
++    <servlet-name>dispatcherServlet</servlet-name>
++    <url-pattern>/</url-pattern>
++  </servlet-mapping>
++
++  <!--3. 添加字符编码过滤器（放在第一个，该过滤器一定要放在所有过滤器之前）-->
++  <filter>
++    <filter-name>characterEncodingFilter</filter-name>
++    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
++    <init-param>
++      <param-name>encoding</param-name>
++      <param-value>UTF-8</param-value>
++    </init-param>
++    <init-param>
++      <param-name>forceRequestEncoding</param-name>
++      <param-value>true</param-value>
++    </init-param>
++    <init-param>
++      <param-name>forceResponseEncoding</param-name>
++      <param-value>true</param-value>
++    </init-param>
++  </filter>
++  <filter-mapping>
++    <filter-name>characterEncodingFilter</filter-name>
++    <url-pattern>/*</url-pattern>
++  </filter-mapping>
++
++  <!--4. 使用Rest风格的URI,将页面普通的Post请求转为指定的delete或者put请求-->
++  <filter>
++    <filter-name>HiddenHttpMethodFilter</filter-name>
++    <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
++  </filter>
++  <filter-mapping>
++    <filter-name>HiddenHttpMethodFilter</filter-name>
++    <url-pattern>/*</url-pattern>
++  </filter-mapping>
++
++</web-app>
+\ No newline at end of file
+Index: target/ouyang_crud1/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/ouyang_crud1/index.jsp	(date 1554605611000)
++++ target/ouyang_crud1/index.jsp	(date 1554638343000)
+@@ -1,5 +1,5 @@
+ <html>
+ <body>
+-<h2>Hello World!</h2>
++<h2>Hello Wwwworld!</h2>
+ </body>
+ </html>

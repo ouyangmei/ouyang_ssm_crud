@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jsqlparser-1.0">
+    <CLASSES>
+      <root url="jar://D:/Idea/codeprograms/ssm_crud/target/ssm-crud/WEB-INF/lib/jsqlparser-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

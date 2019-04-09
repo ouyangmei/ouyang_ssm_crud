@@ -8,6 +8,7 @@
     <result column="email" jdbcType="VARCHAR" property="email" />
     <result column="d_id" jdbcType="INTEGER" property="dId" />
   </resultMap>
+
   <resultMap id="WithDeptResultMap" type="com.ouyang.crud.bean.Employee">
     <id column="emp_id" jdbcType="INTEGER" property="empId" />
     <result column="emp_name" jdbcType="VARCHAR" property="empName" />
@@ -16,7 +17,7 @@
     <result column="d_id" jdbcType="INTEGER" property="dId" />
     <!--指定联合查询出的部门字段的封装-->
     <association property="department" javaType="com.ouyang.crud.bean.Department">
-      <id column="dept_id" property="depyId"/>
+      <id column="dept_id" property="deptId"/>
       <id column="dept_name" property="deptName"/>
     </association>
 

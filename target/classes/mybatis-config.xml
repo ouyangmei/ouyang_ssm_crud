@@ -9,10 +9,12 @@
     <typeAliases>
         <package name="com.ouyang.crud.bean"/>
     </typeAliases>
-    <!--<plugins>
+    <plugins>
         <plugin interceptor="com.github.pagehelper.PageInterceptor">
-            &lt;!&ndash;pageInfo合理化分页参数&ndash;&gt;
-            <property name="reasonable" value="true"/>
+            <!--pageInfo合理化分页参数-->
+            <!--<property name="reasonable" value="true"/>-->
+           <!-- <property name="dialect" value="mysql"/>-->
+            <!--<property name="reasonable" value="true"/>-->
         </plugin>
-    </plugins>-->
+    </plugins>
 </configuration>
